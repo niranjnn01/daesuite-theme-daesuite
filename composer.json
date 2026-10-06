@@ -1,6 +1,6 @@
 {
-    "name": "daesuite/theme-sadanam",
-    "description": "Sadanam theme for Daesuite",
+    "name": "daesuite/theme-daesuite",
+    "description": "Default theme for Daesuite",
     "type": "library",
     "license": "proprietary",
     "require": {
