@@ -1,9 +1,9 @@
  /*
 |--------------------------------------------------------------------------
-| Sadanam Theme
+| Daesuite Theme
 |--------------------------------------------------------------------------
 |
-| This file provides Sadanam-specific values for the Daesuite Design
+| This file provides Daesuite-specific values for the Daesuite Design
 | System semantic tokens.
 |
 | The design system owns:
@@ -22,42 +22,41 @@
 
 
 
-:root[data-theme="sadanam"] {
+:root[data-theme="daesuite"] {
 
     /* ==========================================================================
        Theme Identity
        ========================================================================== */
 
-    --ds-theme-name: 'sadanam';
+    --ds-theme-name: 'daesuite';
 
 
     /* ==========================================================================
        Brand Colors
        ========================================================================== */
 
-    --ds-primary: oklch(0.69 0.065 322);
+    --ds-primary: oklch(0.54 0.10 225);
     --ds-primary-foreground: oklch(1 0 0);
 
-    --ds-secondary: oklch(0.32 0.025 325);
+    --ds-secondary: oklch(0.28 0.07 254);
     --ds-secondary-foreground: oklch(1 0 0);
 
-    --ds-accent: oklch(0.58 0.08 25);
-    --ds-accent-foreground: oklch(1 0 0);
+    --ds-accent: oklch(0.75 0.15 65);
+    --ds-accent-foreground: oklch(0.28 0.07 254);
 
 
     /* ==========================================================================
        Application Surfaces
        ========================================================================== */
 
-    --ds-background: oklch(88.92% 0.0208 325.56);
-    --ds-foreground: oklch(0.32 0.025 325);
-    --ds-foreground-inverse: oklch(88.92% 0.0208 325.56);
+    --ds-background: oklch(0.98 0.007 235);
+    --ds-foreground: oklch(0.28 0.07 254);
+    --ds-foreground-inverse: oklch(0.98 0.007 235);
 
-    --ds-surface: oklch(96.63% 0.0068 355.68);
-
-    --ds-surface-subtle: oklch(0.975 0.018 65);
-    --ds-surface-muted: oklch(0.95 0.02 65);
-    --ds-surface-elevated: oklch(0.995 0.02 65);
+    --ds-surface: oklch(1 0 0);
+    --ds-surface-subtle: oklch(0.975 0.01 235);
+    --ds-surface-muted: oklch(0.95 0.015 238);
+    --ds-surface-elevated: oklch(1 0 0);
 
 
     /* ==========================================================================
