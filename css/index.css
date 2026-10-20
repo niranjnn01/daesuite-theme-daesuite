@@ -22,7 +22,7 @@
 
 
 
-:root[data-theme="daesuite"] {
+:root[data-theme="theme-daesuite"] {
 
     /* ==========================================================================
        Theme Identity
@@ -35,10 +35,13 @@
        Brand Colors
        ========================================================================== */
 
-    --ds-primary: oklch(0.54 0.10 225);
+    
+    --ds-primary: oklch(54.3 0.099 221.1);
+    /* --ds-primary: oklch(0.54 0.10 225); */
+
     --ds-primary-foreground: oklch(1 0 0);
 
-    --ds-secondary: oklch(0.28 0.07 254);
+    --ds-secondary: oklch(0.28 0.07 254);           
     --ds-secondary-foreground: oklch(1 0 0);
 
     --ds-accent: oklch(0.75 0.15 65);
