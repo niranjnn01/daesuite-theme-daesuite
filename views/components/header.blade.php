@@ -25,7 +25,7 @@
 
             <x-heros.full-width-with-stats class="pt-25" 
                 :background="tenant_asset('images/home-pg-hero-bg.jpg')"
-                :stats="$homepgStats->items"
+                :stats="$homepgStats->items ?? []"
                 >
 
                 <x-slot:title1>
