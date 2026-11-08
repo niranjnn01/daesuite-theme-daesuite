@@ -1,6 +1,6 @@
 <!-- Footer -->
     <footer class="footer text-black">
-        <div class="bg-primary min-h-3 p-10 pb-0 relative overflow-clip">
+        <div class="bg-primary min-h-3 p-10 pb-0 relative overflow-clip mt-10">
             <div class="container mx-auto px-4 md:px-15">
                 <div class="flex flex-col lg:flex-row gap-8 lg:gap-5 relative z-10 justify-between">
                     
