@@ -1,6 +1,6 @@
 
     <!-- Header -->
-    <header class="header pb-5 mb-4  bg-background" x-data="{ mobileMenuOpen: false, contactModalOpen: false , admissionModalOpen: false}">
+    <header class="header pb-5 mb-4 bg-background h-24" x-data="{ mobileMenuOpen: false, contactModalOpen: false , admissionModalOpen: false}">
 
             <div class="relative">
 
