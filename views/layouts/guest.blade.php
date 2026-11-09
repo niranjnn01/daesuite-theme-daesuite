@@ -1,8 +1,18 @@
 @extends('system::frames.guest')
 
 @section('frame')
-  
-    <x-theme::header />
+
+
+    @php
+        $header = match ($page ?? 'default') {
+            'home' => 'theme::header-home',
+            default => 'theme::header',
+        };
+
+    @endphp
+
+    <x-dynamic-component :component="$header" />
+
         <!-- Main Body -->
         <main class="body">
         
